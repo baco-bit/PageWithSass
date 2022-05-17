@@ -109,7 +109,7 @@ header{
 .btn{
 
     &.btn-cta{
-        @include btn($secondary-color, $terciary-color, 'true');
+        @include btn($terciary-color, $secondary-color, 'true');
         &:hover{
             @include btn($secondary-color, $terciary-color, 'true');
             box-shadow: $box-shadow;
